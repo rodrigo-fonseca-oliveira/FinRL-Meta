@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -f docker/Dockerfile -t finrlmeta .
+docker buildx build -f docker/Dockerfile -t finrlmeta .
